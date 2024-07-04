@@ -13,3 +13,9 @@
                 }
             }
 ```
+
+
+```
+helm3 lint --namespace appdu-demo12 .
+helm3 upgrade --install --namespace appdu-demo12 ${releaseName} ${additionalFlag} .
+```
